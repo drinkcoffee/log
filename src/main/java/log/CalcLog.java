@@ -69,7 +69,12 @@ public class CalcLog {
     }
 
 
-    public BigDecimal oneIterationBig(final int k) {
+    /**
+     * Calculate   1 / (2k+1)  * ( (z-1)/(z+1) )^(2k+1)
+     *
+     * @param k is the iteration to calculate. It is the k parameter in the equation.
+     */
+    private BigDecimal oneIterationBig(final int k) {
         int exp = 2 * k + 1;
 
         // double product = (this.zDouble - 1.0) / (this.zDouble + 1.0);
