@@ -1,4 +1,4 @@
-module github.com/drinkcoffee/log/golang
+module github.com/drinkcoffee/log/log/golang
 
 go 1.15
 
